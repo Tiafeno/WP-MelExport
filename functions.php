@@ -22,6 +22,7 @@ register_nav_menus( array(
 * Enqueue scripts and styles.
 */
 function melexport_scripts() {
+  wp_enqueue_style( 'PTSans', 'https://fonts.googleapis.com/css?family=PT+Sans:400,700', array() );
   wp_enqueue_style( 'Libre-bracode', 'http://fonts.googleapis.com/css?family=Libre+Barcode+39+Text', array() );
   wp_enqueue_style( 'uikit-style', get_theme_file_uri( '/composants/uikit/css/uikit.css' ), array(), '1.0' );
   // Theme stylesheet.
