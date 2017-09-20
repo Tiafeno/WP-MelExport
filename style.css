@@ -1,0 +1,91 @@
+/*
+Theme Name: MelExport Design
+Theme URI: https://github.com/Tiafeno/WP-MelExport
+Author: TIAFENO Finel
+Author URI: https://falicrea.com/
+Description: MelExport Import Design Theme with uikit.
+Version: 1.0
+License: Copyright, MelExport
+Text Domain: GPL Licence
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+header.header-wrapper {
+  width: 100%;
+  display: block;
+}
+header.header-top-justify {
+  width: 100%;
+  display: block;
+  min-height: 80px;
+}
+header.header-top-justify .uk-icon-image.logo {
+  height: 100px;
+  background-position: top right;
+}
+.header-bottom .slogan {
+  font-size: 12px;
+}
+.header-branding {
+  width: 100%;
+  background: url(img/vanilla.jpg) no-repeat bottom left;
+  background-size: cover;
+}
+.header-slide {
+  width: 100%;
+  min-height: 350px;
+  background: -moz-linear-gradient(top, #212831 0%, rgba(33, 40, 49, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #212831), color-stop(100%, rgba(33, 40, 49, 0)));
+  background: -webkit-linear-gradient(top, #212831 0%, rgba(33, 40, 49, 0) 100%);
+  background: -o-linear-gradient(top, #212831 0%, rgba(33, 40, 49, 0) 100%);
+  background: -ms-linear-gradient(top, #212831 0%, rgba(33, 40, 49, 0) 100%);
+  background: linear-gradient(to bottom, #212831 0%, rgba(33, 40, 49, 0) 100%);
+}
+header.header-top-justify > .section-menu {
+  background: #212831;
+}
+header .header-top .uk-input{
+  background: #212831;
+  color: #666;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.3);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.uk-navbar-nav > li.uk-active > a {
+  color: #fff;
+}
+P.blogname {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.uk-navbar-subtitle {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 100;
+}
+.el-social .uk-icon-button:hover, .el-social .uk-icon-button:focus {
+  background-color: #ebebeb;
+  color: #134e9c;
+}
+header .el-social .uk-icon-button {
+  background: #134e9c;
+  color: #fbf4f4;
+}
+.el-social {
+  display: flex;
+}
+.el-footer {
+  background-color: #212831;
+}
+.uk-navbar-dropdown {
+  background: #212831;
+}
+.uk-navbar-dropdown-nav > li.uk-active > a {
+  color: aliceblue;
+}
