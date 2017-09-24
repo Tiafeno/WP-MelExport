@@ -21,9 +21,17 @@
 
     <style type="text/css">
       header .el-title {
+        margin: auto;
+      }
+      header .el-title p {
         color: white;
-        font-size: 60px;
-        font-family: 'Libre Barcode 39 Text', cursive;
+        font-size: 32px;
+        font-family: 'Exo', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2.45px;
+        background-color: rgba(232, 174, 49, 0.35);
+        border-radius: 10px;
       }
       .uk-navbar-nav > li.uk-active > a, .uk-navbar-nav > li > a:hover  {
         border-top: 4px solid #fff;

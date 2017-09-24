@@ -12,8 +12,8 @@
           </div>
         </div>
         <div class="uk-width-3-4@s">
-          <div class="uk-margin-auto-vertical uk-text-center el-title">
-          <?= the_title() ?>
+          <div class="uk-width-2-3 uk-margin-auto-vertical uk-text-center el-title">
+          <p><?= the_title() ?></p>
           </div>
         </div>
       </div>
